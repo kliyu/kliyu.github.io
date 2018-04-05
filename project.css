@@ -1,0 +1,343 @@
+body,div,h1,h2,h3,h4,h5,p,ul,li,dl,dt,dd,img,a {
+	margin: 0;
+	padding: 0;
+}
+*{
+	box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+ul,li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+:after,:before{
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header{
+	background: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2271680791,2953841693&fm=27&gp=0.jpg) no-repeat center center ;
+	background-size: cover;
+	height: 632px;
+	text-align: center;
+}
+.layout{
+	width: 1200px;
+	margin: 0 auto;
+}
+.layout2{
+	width: 1000px;
+	margin: 0 auto;
+}
+.fixed{
+	display: inline-block;
+	margin-top: 30px;
+	float: left;
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+	font-size: 2em;
+	color: #fed136;
+}
+.nav {
+	float: right;
+	margin: 25px 0;
+}
+.nav>li{
+	float: left;
+}
+.nav>li>a{
+	display: inline-block;
+	color: #fff;
+	padding: 4px;
+	margin: 10px;
+}
+.nav>li>a:hover{
+	color: #fed136;
+}
+.welcome{
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 200px;
+}
+.welcome h2{
+	text-align: center;
+	font-size: 40px;
+}
+.welcome h1{
+	text-align: center;
+	font-size: 70px;
+}
+.welcome a{
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	padding: 20px;
+	border-radius: 4px;
+	background-color: #fed136;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.welcome a:hover{
+	background-color: #fec503;
+}
+.content{
+	margin: 150px auto;
+}
+.operations {
+	text-align: center;
+}
+.operations h1{
+	font-size: 40px;
+}
+.operations p{
+	font-size: 20px;
+	color: #827979;
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+.table{
+	margin: 0 90px;
+}
+.opera>li {
+	float: left;
+	text-align: center;
+	width: 33.33%;
+}
+.opera .iconfont{
+	font-size: 80px;
+}
+.opera>li p{
+	color:#827979;
+	margin:10px 20px;
+}
+.opera>li img {
+	display: inline-block;
+	margin-top: 30px;
+	height: 260px;
+	width: 360px;
+}
+.caption{
+	background-color: #fff;
+	width: 360px;
+	margin: 0 auto;
+	padding: 25px;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+.content-bacd{
+	background-color: #f7f6f6;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.timeline>li:after{
+	content: '';
+	display: block;
+	clear:both;
+}
+.timeline>li:nth-child(odd){
+	padding-right: calc(50% - 85px);
+}
+.timeline>li:nth-child(even){
+	padding-left: calc(50% - 85px);
+}
+.timeline>li img{
+	float: right;
+	width: 156px;
+	height: 156px;
+	border-radius: 50%;
+	border: 7px #f3f0f0 solid;
+	margin-bottom: 100px;
+}
+.timeline>li span{
+	float: right;
+	border: 7px #f3f0f0 solid;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	width: 156px;
+	height: 156px;
+	padding: 32px;
+	background-color: #f3ce1a;
+}
+.timeline>li:nth-child(even) img{
+	float: left;
+}
+.timeline>li:nth-child(odd) dl {
+	margin-right: 200px;
+}
+.timeline>li:nth-child(even) dl{
+	margin-left: 200px;
+}
+.timeline>li dl dt{
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.timeline>li:nth-child(even) dl dt{
+	text-align: left;
+}
+.timeline>li dl dd {
+	text-align: right;
+	line-height: 1.75;
+}
+.timeline>li:nth-child(even) dl dd{
+	text-align: left;
+}
+.timeline>li:before{
+	 content: '';
+	 left: 50%;
+	 position: absolute;
+	 display: inline-block;
+	 height: 300px;
+	 width: 3px;
+	 background-color: #f3f0f0;
+	 z-index: -1;
+}
+.timeline>li:last-child:before{
+	height: 0;
+}
+.team>li img{
+	border-radius: 50%;
+	width: 225px;
+	height: 225px;
+}
+.team>li h4{
+	margin-top: 25px;
+	font-size: 18px;
+}
+.team>li p{
+	margin: 0;
+}
+.introduce .iconfont{
+	font-size: 20px;
+	padding: 7px 11px;
+}
+.introduce .iconfont:hover{
+	background-color: #fec503;
+}
+.introduce span{
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #ddd;
+	margin: 12px 8px;
+}
+.text-muted{
+	margin: 40px 250px;
+}
+.text-muted p{
+	text-align: center;
+	color: #777;
+	font-size: 16px;
+	line-height: 1.75;
+}
+.cont{
+	margin-bottom: 0;
+}
+.col-md{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.row img{
+	display: inline-block;
+	margin: 50px auto;
+}
+.contact{
+	background: #222 url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/map-image.png) center center no-repeat;
+	padding: 150px;
+}
+.container{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.container h1{
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.container p{
+	color: #777;
+	font-size: 16px;
+}
+.form-left{
+	width: 50%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.form input,
+.area textarea{
+	padding: 20px;
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: none;
+	border: 1px #ccc solid;
+	margin-bottom: 30px;
+}
+.area{
+	display: inline-block;
+	margin-left: 0px;
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.area textarea{
+	height: 236px;
+	font-family: inherit;
+}
+.form input:focus,
+.area textarea:focus{
+	outline: none;
+	border:1px #fed136 solid;
+}
+.button{
+	text-align: center;
+}
+.button a{
+	display: inline-block;
+	padding: 20px 40px;
+	border-radius: 3px;
+	background-color: #fed136;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+}
+.button a:hover{
+	background-color: #fec503;
+}
+footer{
+	text-align: center;
+}
+.footer-width{
+	width: 33.3333333%;
+	float: left;
+}
+.font-center{
+}
+.copyright span,.footer-right{
+	display: inline-block;
+	margin: 27px 0;
+}
+.footer-right a{
+	margin-left: 10px;
+	color: #fec503;
+}
+.footer-right a:hover{
+	text-decoration: underline;
+}
